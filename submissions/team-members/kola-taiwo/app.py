@@ -43,8 +43,8 @@ def load_data_and_models():
         models = load_models(
            # regressor_path='models/regressor_model.pkl',
             #classifier_path='models/classifier_model.pkl',
-            classifier_path='submissions/team-members/kola-taiwo/models/classifier_model.pkl'
-            cluster_path= 'submissions/team-members/kola-taiwo/models/clustering_model.pkl'
+            classifier_path='submissions/team-members/kola-taiwo/models/classifier_model.pkl',
+            cluster_path= 'submissions/team-members/kola-taiwo/models/clustering_model.pkl',
             regressor_path= 'submissions/team-members/kola-taiwo/models/regressor_model.pkl'
             #cluster_path='models/clustering_model.pkl'
         )
