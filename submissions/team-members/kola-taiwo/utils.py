@@ -15,7 +15,8 @@ def load_models(regressor_path, classifier_path, cluster_path):
         regressor = joblib.load(regressor_path)
         classifier = joblib.load(classifier_path)
         cluster_model = joblib.load(cluster_path)
-        preprocessor = joblib.load('models/preprocessor.pkl')
+       # preprocessor = joblib.load('models/preprocessor.pkl')
+        preprocessor = joblib.load('submissions/team-members/kola-taiwo/models/preprocessor.pkl')
         
         return regressor, classifier, cluster_model, preprocessor
     
