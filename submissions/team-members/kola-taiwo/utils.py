@@ -6,7 +6,8 @@ def load_models(regressor_path, classifier_path, cluster_path):
     """Load models with simple, robust method"""
     try:
         # Check if files exist
-        required_files = [regressor_path, classifier_path, cluster_path, 'models/preprocessor.pkl']
+        #required_files = [regressor_path, classifier_path, cluster_path, 'models/preprocessor.pkl']
+        required_files = [regressor_path, classifier_path, cluster_path, 'submissions/team-members/kola-taiwo/models/preprocessor.pkl']
         for file_path in required_files:
             if not os.path.exists(file_path):
                 raise FileNotFoundError(f"Model file not found: {file_path}")
