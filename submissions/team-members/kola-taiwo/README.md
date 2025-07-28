@@ -208,6 +208,7 @@ This README.md specifically highlights the contributions to the Social Sphere pr
 - **Error Handling**: Robust input validation and error management
 - **Performance Optimization**: Cached data loading and model testing
 - **User Experience**: Intuitive interface with clear visualizations
+- **Deployed app can be seen here:** https://kola-taiwo-social-sphere-m5hxkappxnriipz8aonj2vv.streamlit.app/
 
 ### **Scalability Features**
 - **Modular Design**: Easy to extend with new features
